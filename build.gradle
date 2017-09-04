@@ -1,0 +1,16 @@
+group 'com.iqmsoft.payara.scala'
+
+
+apply plugin: 'scala'
+apply plugin: 'war'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.11.8'
+    providedCompile 'javax:javaee-web-api:7.0'
+}
+
+
