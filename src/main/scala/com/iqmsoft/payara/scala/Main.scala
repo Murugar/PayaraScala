@@ -7,7 +7,7 @@ import javax.ws.rs._
 import javax.ws.rs.core._
 
 @ApplicationPath("api")
-class MyApp extends Application
+class TestApp extends Application
 
 @Path("test")
 class TestResource {
